@@ -16,7 +16,10 @@ public class HomeController
 	@RequestMapping(value ="/hello")
 public ModelAndView hello()
 {
+System.out.println("hello Method Start");
 	System.out.println("hello controller call");
+System.out.println("hello Method End");
 	return new ModelAndView("success");
 }
 }
+
